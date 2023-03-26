@@ -2328,6 +2328,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"docs-ai@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "docs-ai@workspace:."
+  dependencies:
+    "@ohrm/oxd": ^2.0.0-alpha.12
+    hnswlib-node: ^1.3.0
+    langchain: ^0.0.41
+    nuxt: ^3.3.2
+    openai: ^3.1.0
+    pickle: ^0.2.0
+  languageName: unknown
+  linkType: soft
+
 "dom-serializer@npm:^1.0.1":
   version: 1.4.1
   resolution: "dom-serializer@npm:1.4.1"
@@ -4443,19 +4456,6 @@ __metadata:
   checksum: fdfc8f42e8b3e351e29ae138d618d1677a6f0485480a21b228808f20e633dee1622956011b57604fd08042e23b606dcd0fcdad566844bbec604c794c2a2b0e52
   languageName: node
   linkType: hard
-
-"nuxt-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:."
-  dependencies:
-    "@ohrm/oxd": ^2.0.0-alpha.12
-    hnswlib-node: ^1.3.0
-    langchain: ^0.0.41
-    nuxt: ^3.3.2
-    openai: ^3.1.0
-    pickle: ^0.2.0
-  languageName: unknown
-  linkType: soft
 
 "nuxt@npm:^3.3.2":
   version: 3.3.2
